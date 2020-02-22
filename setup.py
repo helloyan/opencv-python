@@ -146,7 +146,6 @@ def main():
         cmake_args.append("-DWITH_LIBV4L=ON")
         cmake_args.append("-DWITH_GSTREAMER=ON")
         cmake_args.append("-DWITH_GSTREAMER_0_10=OFF")
-        cmake_args.append("-DWITH_QT=ON")
         cmake_args.append("-DWITH_OPENGL=ON")
         cmake_args.append("-DOPENCV_DNN_CUDA=ON")
         cmake_args.append("-D BUILD_TESTS=OFF")
